@@ -1,5 +1,6 @@
 const sumAll = function(x, y) {
     if (x < 0) return "ERROR";
+    if (typeof y !== Number) return "ERROR";
     
 }
    
