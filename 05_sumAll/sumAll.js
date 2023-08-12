@@ -1,9 +1,8 @@
-const sumAll = function(x, y) {
-    if (x < 0) return "ERROR";
-    if (typeof y !== Number) return "ERROR";
-    
+const sumAll = function (min, max) {
+    if (min<max) [min, max] = [max, min];
+    if (min<0 || max<0) return "ERROR";
 }
-   
+
    
     /* let x=0
     let y=0
