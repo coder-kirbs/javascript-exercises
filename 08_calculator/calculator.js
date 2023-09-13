@@ -8,12 +8,13 @@ const subtract = function(a, b) {
   return subtracted;
 };
 
-const sum = function() {
-	
-};
+//sum of different numbers within an array, even multiple numbers
+const sum = function(array) {
+  return array.reduce((total, current) => total + current, 0)
+  };
 
-const multiply = function() {
-
+const multiply = function(array) {
+  return 
 };
 
 const power = function() {
