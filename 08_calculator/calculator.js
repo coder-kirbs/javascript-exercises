@@ -3,7 +3,7 @@ const add = function(a, b) {
   return added;
 };
 
-const subtract = function() {
+const subtract = function(a, b) {
 	let subtracted = a-b;
   return subtracted;
 };
